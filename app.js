@@ -12,7 +12,7 @@ const MONGO_URI = process.env.MONGO_URI;
 
 app.use(
   cors({
-    origin: "https://your-frontend-domain.vercel.app",
+    origin: "https://my-expense-tracker-gilt.vercel.app",
     methods: ["GET", "POST"],
     credentials: true,
   })
